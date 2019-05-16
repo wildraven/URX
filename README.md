@@ -18,7 +18,7 @@ Blockchain
 
 Proof of Work
 -------------
-- **PoW Algorithm**: Argon2d: memory usage increases over time.
+- **PoW Algorithm**: Argon2d: memory usage increases over time. After block 105000, Yespower ( cpu only )
 - **Difficulty**: Uses Dark Gravity Wave and updates every block.
 
 License
