@@ -454,7 +454,7 @@ if GLIBC_BACK_COMPAT
   liburaniumxconsensus_la_SOURCES += compat/glibc_compat.cpp
 endif
 
-liburaniumxconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
+liburaniumxconsensus_la_LDFLAGS = $(AM_LDFLAGS) $(RELDFLAGS)
 liburaniumxconsensus_la_LIBADD = $(LIBSECP256K1)
 liburaniumxconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -I$(srcdir)/argon2/include -DBUILD_BITCOIN_INTERNAL
 liburaniumxconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
